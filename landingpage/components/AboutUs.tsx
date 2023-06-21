@@ -3,13 +3,13 @@ import Image from 'next/image'
 
 function AboutUs() {
     return (
-        <div className='mt-20 max-w-6xl mx-auto mb-10' id="aboutus">
+        <div className='mt-20 max-w-6xl mx-auto mb-10' id='aboutus'>
             <h1 className='text-5xl text-center text-slate-800'>About Us</h1>
 
 
             <div className='mt-10 flex flex-col sm:flex-row max-w-4xl mx-auto justify-around items-center'>
                 <div className='relative'>
-                    <Image src="/ayushi.jpg" alt="dp" width={500}
+                    <Image src='/ayushi.jpg' alt='dp' width={500}
                         height={300} className='object-cover  max-w-xs mx-auto rounded-md hover:scale-110 transition duration-200 ease-in-out' />
 
                 </div>
