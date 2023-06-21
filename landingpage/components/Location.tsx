@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Location() {
     return (
@@ -16,7 +17,8 @@ function Location() {
                     className='w-full'
                 />
                 <div className="flex items-center gap-4 max-w-xs">
-                    <img src="logo.png" alt="" width="60" className='' />
+                    <Image src="logo.png" alt="" width={50}
+                        height={300} className='' />
                     <div className='flex-col'>
                         <h1 className='font-serif text-slate-800 text-3xl font-medium'>
                             MaxAlign Dental
