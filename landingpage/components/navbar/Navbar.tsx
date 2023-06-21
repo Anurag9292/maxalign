@@ -9,7 +9,8 @@ function Navbar() {
             <div className='flex p-4 items-center sm:max-w-full justify-around mx-auto'>
 
                 <div className="flex items-center gap-2">
-                    <img src="logo.png" alt="" width="60" className='' />
+                    <Image src="/logo.png" alt="logo" width={50}
+                        height={300} className='' />
                     <div className='flex-col'>
                         <h1 className='font-serif text-slate-800 text-4xl font-medium'>
                             MaxAlign Dental

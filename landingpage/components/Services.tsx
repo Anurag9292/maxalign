@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function Services() {
     return (
@@ -7,42 +8,48 @@ function Services() {
             <div className='flex mx-auto flex-col sm:flex-wrap sm:flex-row mt-20 gap-10 justify-between items-center'>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/ortho.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/ortho.png" alt="ortho" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'>Orthodontics</h1>
                     </div>
                 </div>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/whitening.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/whitening.png" alt="whitening" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'>Teeth Whitening</h1>
                     </div>
                 </div>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/cavity.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/cavity.png" alt="cavity" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'>Cavity Treatment</h1>
                     </div>
                 </div>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/implants.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/implants.png" alt="implants" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'> Dental Implants</h1>
                     </div>
                 </div>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/aligners.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/aligners.png" alt="aligners" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'>Aesthetic Aligners</h1>
                     </div>
                 </div>
 
                 <div className='bg-slate-300 h-96 w-80 flex flex-col items-center justify-center rounded-2xl overflow-hidden relative hover:scale-110 transition duration-200 ease-in-out'>
-                    <img src="/gum.png" alt="" className='object-cover w-full h-full' />
+                    <Image src="/gum.png" alt="gums" width={500}
+                        height={300} className='object-cover w-full h-full' />
                     <div className='absolute bg-slate-400 z-10 h-10 w-full flex items-center justify-center bottom-0'>
                         <h1 className='text-lg absolute text-center mx-auto font-bold text-slate-800'>Gum Problems</h1>
                     </div>

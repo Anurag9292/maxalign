@@ -12,7 +12,8 @@ function Hero() {
 
 
                 <div className=" ">
-                    <img src="/dental1.png" alt="Your alt text" className="w-screen h-full object-cover absolute top-0  left-0 -z-20" />
+                    <Image src="/dental1.png" alt="Your alt text" width={500}
+                        height={300} className="w-screen h-full object-cover absolute top-0  left-0 -z-20" />
                     <div className="absolute w-full h-full bg-black opacity-50 top-0  left-0 -z-10"></div>
                 </div>
 

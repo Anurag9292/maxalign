@@ -1,4 +1,5 @@
 import React from 'react'
+import Image from 'next/image'
 
 function AboutUs() {
     return (
@@ -8,7 +9,8 @@ function AboutUs() {
 
             <div className='mt-10 flex flex-col sm:flex-row max-w-4xl mx-auto justify-around items-center'>
                 <div className='relative'>
-                    <img src="/ayushi.jpg" alt="" className='object-cover  max-w-xs mx-auto rounded-md hover:scale-110 transition duration-200 ease-in-out' />
+                    <Image src="/ayushi.jpg" alt="dp" width={500}
+                        height={300} className='object-cover  max-w-xs mx-auto rounded-md hover:scale-110 transition duration-200 ease-in-out' />
 
                 </div>
                 <div className='flex flex-col'>
