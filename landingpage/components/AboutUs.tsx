@@ -14,7 +14,7 @@ function AboutUs() {
 
                 </div>
                 <div className='flex flex-col'>
-                    <h2 className='p-4 italic text-center text-xl tracking-tighter font-extralight text-slate-700'> "Our mission is to fix smiles and restore confidence. Through our expertise in dental care, we strive to enhance oral health, provide effective treatments, and create beautiful smiles."</h2>
+                    <h2 className='p-4 italic text-center text-xl tracking-tighter font-extralight text-slate-700'> &lsquo; Our mission is to fix smiles and restore confidence. Through our expertise in dental care, we strive to enhance oral health, provide effective treatments, and create beautiful smiles. &rsquo;</h2>
                     <div className='p-4 text-center'>
                         <h1>Dr. Ayushi Verma</h1>
                         <h2>B.D.S. , M.D.S. </h2>
